@@ -1,0 +1,62 @@
+.grid {
+  display: grid;
+  gap: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.links {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 10vw 10vw 10vw 10vw;
+}
+.utils {
+  margin-left: 10vw;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 8vw 8vw 8vw 8vw;
+  align-content: space-around;
+}
+nav {
+  grid-template-columns: 1fr auto 1fr;
+}
+#logo {
+  margin: 0;
+  padding-left: auto;
+  padding-right: auto;
+  max-width: 10vw;
+}
+
+.popup {
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+  width: 50%;
+  height: 50%;
+  padding: 2vw;
+  color: white;
+  background-color: rgb(242, 136, 111);
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+.icon {
+  width: 20px;
+}
+.innerPopup {
+  font-size: large;
+  line-height: 4em;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#claim {
+  color: rgb(242, 136, 111);
+  background-color: white;
+  padding: 1em;
+  margin: 0;
+  position: absolute;
+  left: 40%;
+}
+
+.hide {
+  height: 0;
+}
